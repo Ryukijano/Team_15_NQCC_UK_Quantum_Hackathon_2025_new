@@ -29,7 +29,7 @@ flowchart TD
     O --> P[SampleBasedQuantumDiagonalization]
     
     P --> Q[Initial State Preparation]
-    Q --> R[Product State |ψ₀⟩]
+    Q --> R[Product State psi0]
     
     R --> S[Krylov Subspace Construction]
     S --> T[Time Evolution: |ψₖ⟩ = e⁻ⁱᵏᴴᵀᵗ|ψ₀⟩]
