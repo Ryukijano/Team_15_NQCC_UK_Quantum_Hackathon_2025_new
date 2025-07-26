@@ -32,7 +32,7 @@ flowchart TD
     Q --> R[Product State psi0]
     
     R --> S[Krylov Subspace Construction]
-    S --> T[Time Evolution: |psiₖ⟩ = e⁻ⁱᵏᴴᵀᵗ|ψ₀⟩]
+    S --> T[Time Evolution: psiₖ⟩ = e⁻ⁱᵏᴴᵀᵗ|ψ₀⟩]
     
     T --> U[Quantum Sampling]
     U --> V[Measure Krylov States]
